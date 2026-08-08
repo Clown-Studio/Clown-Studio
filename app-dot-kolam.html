@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dot Kolam — an app by Clown Studio</title>
+<meta name="description" content="Dot Kolam is a traditional kolam drawing app by Clown Studio, available on Google Play. Place dots, connect them with lines and curves, and create beautiful kolam art.">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="stripe-bar"></div>
+  <div class="nav">
+    <a class="brand" href="index.html" style="text-decoration:none;">
+      <img src="assets/img/logo-icon.png" alt="Clown Studio logo">
+      <span>
+        <strong>Clown Studio</strong><br>
+        <span>App Development</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
+    <nav class="links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#apps">Apps</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy</a>
+      <a class="cta" href="contact.html">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap" style="display:flex; align-items:center; gap:24px; flex-wrap:wrap;">
+    <img src="assets/img/dotkolam-icon.png" alt="Dot Kolam app icon" style="width:88px;height:88px;border-radius:20px;box-shadow:0 10px 24px rgba(0,0,0,.35);">
+    <div>
+      <span class="eyebrow">By Clown Studio</span>
+      <h1>Dot Kolam</h1>
+      <p>Traditional kolam, beautifully drawn — on Android.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="prose">
+      <p class="lede" style="text-align:left;">Kolam is a traditional South Indian dot-grid art form, usually drawn by hand on the ground with rice flour. Dot Kolam brings the same idea to your phone: place a grid of dots, then connect them with lines and curves to build symmetric, decorative patterns — no artistic experience required.</p>
+
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.dotkolam.app&pcampaignid=web_share" target="_blank" rel="noopener">View on Google Play ↗</a>
+        <a class="btn btn-ghost" href="privacy-policy.html">App privacy policy</a>
+      </div>
+
+      <h2>Screenshots</h2>
+    </div>
+
+    <div class="shot-strip" style="margin-top:20px;">
+      <img src="assets/img/shot-4.jpg" alt="Dot Kolam screenshot — floral kolam pattern in green, pink and red">
+      <img src="assets/img/shot-5.jpg" alt="Dot Kolam screenshot — curve tool kolam pattern with stars">
+      <img src="assets/img/shot-1.jpg" alt="Dot Kolam screenshot — set up your grid screen">
+      <img src="assets/img/shot-2.jpg" alt="Dot Kolam screenshot — choose a style screen">
+      <img src="assets/img/shot-3.jpg" alt="Dot Kolam screenshot — hexagon kolam pattern with mirrored shapes">
+    </div>
+
+    <div class="prose">
+      <h2>Features</h2>
+      <ul>
+        <li><strong>Dot &amp; grid setup</strong> — control cell size, dot size, spacing and grid style before you start drawing.</li>
+        <li><strong>Line &amp; curve tools</strong> — connect dots freehand, with straight lines, or with smooth curves.</li>
+        <li><strong>Mirror mode</strong> — draw one section and mirror it automatically for symmetric kolam designs.</li>
+        <li><strong>Shape library</strong> — drop in ready-made motifs (stars, petals, loops) and combine them with your own lines.</li>
+        <li><strong>Fill &amp; erase</strong> — colour in closed shapes and clean up mistakes without starting over.</li>
+        <li><strong>Save your work</strong> — export finished kolams to share or print.</li>
+      </ul>
+
+      <h2>Availability</h2>
+      <p>Dot Kolam is published on Google Play under Clown Studio. "Around the Dot" (a second drawing style) is in development.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap center">
+    <span class="eyebrow" style="color:#FFE6DA;">Like what you see?</span>
+    <h2>More apps are on the way</h2>
+    <p class="lede">Follow Clown Studio for updates on Dot Kolam and future Android &amp; web releases.</p>
+    <div class="btn-row">
+      <a class="btn btn-light" href="contact.html">Contact Clown Studio</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html" style="text-decoration:none;">
+          <img src="assets/img/logo-icon.png" alt="Clown Studio logo">
+          <span><strong style="color:#fff;">Clown Studio</strong></span>
+        </a>
+        <p style="margin-top:14px; max-width:320px;">An app development organisation building Android and web apps. Turning ideas into amazing apps.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#apps">Apps</a></li>
+          <li><a href="app-dot-kolam.html">Dot Kolam</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal &amp; Contact</h4>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Clown Studio. All rights reserved.</span>
+      <span class="fine">Registered app development organisation</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
