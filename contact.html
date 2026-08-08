@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Clown Studio</title>
+<meta name="description" content="Get in touch with Clown Studio — Android and web app development.">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="stripe-bar"></div>
+  <div class="nav">
+    <a class="brand" href="index.html" style="text-decoration:none;">
+      <img src="assets/img/logo-icon.png" alt="Clown Studio logo">
+      <span>
+        <strong>Clown Studio</strong><br>
+        <span>App Development</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
+    <nav class="links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#apps">Apps</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy</a>
+      <a class="cta" href="contact.html">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">Say hello</span>
+    <h1>Contact Clown Studio</h1>
+    <p>For app support, business enquiries, or anything else.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="callout">
+      <strong>Fill these in:</strong> replace the bracketed placeholders with your real support email, business
+      email, and location. For Google Play Console organisation verification, using an email address on your own
+      domain (matching this website) is strongly recommended.
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="glyph" style="background:var(--red);">✉️</div>
+        <h3>General &amp; business enquiries</h3>
+        <p><a href="mailto:hello@yourdomain.com">[hello@yourdomain.com]</a></p>
+      </div>
+      <div class="contact-card">
+        <div class="glyph" style="background:var(--teal);">🛠️</div>
+        <h3>App support (Dot Kolam)</h3>
+        <p><a href="mailto:support@yourdomain.com">[support@yourdomain.com]</a></p>
+      </div>
+      <div class="contact-card">
+        <div class="glyph" style="background:var(--gold);">🏢</div>
+        <h3>Organisation</h3>
+        <p>Clown Studio<br>[City, State, Country]<br><em style="color:var(--muted); font-size:13.5px;">[Registered business address]</em></p>
+      </div>
+      <div class="contact-card">
+        <div class="glyph" style="background:var(--ink);">🔗</div>
+        <h3>Elsewhere</h3>
+        <p>Google Play: <a href="#">[Play Store developer page link]</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html" style="text-decoration:none;">
+          <img src="assets/img/logo-icon.png" alt="Clown Studio logo">
+          <span><strong style="color:#fff;">Clown Studio</strong></span>
+        </a>
+        <p style="margin-top:14px; max-width:320px;">An app development organisation building Android and web apps. Turning ideas into amazing apps.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#apps">Apps</a></li>
+          <li><a href="app-dot-kolam.html">Dot Kolam</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal &amp; Contact</h4>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Clown Studio. All rights reserved.</span>
+      <span class="fine">Registered app development organisation</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
